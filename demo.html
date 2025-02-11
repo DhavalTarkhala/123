@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="text-white flex">
+      <div class="bg-[#fff] h-[100vh] w-[12vw] text-black pt-4 text-center">
+        <a class="text-xl font-extrabold">EMP</a>
+        <div class="mt-5 flex flex-col text-sm">
+          <button class="focus:bg-[#e3e3e3] mx-2 p-2">Dashboard</button>
+          <button class="focus:bg-[#e3e3e3] mx-2 p-2">Screenshots</button>
+          <button class="focus:bg-[#e3e3e3] mx-2 p-2">URL Visited</button>
+        </div>
+      </div>
+      <div class="bg-[#fff] flex flex-col flex-1">
+        <div
+          class="h-[10vh] py-4 ps-10 border-s-1 text-xl text-black border-[#e3e3e3] font-bold flex justify-between px-10"
+        >
+          <span class="">Dashboard</span>
+          <div class="flex items-center gap-3">
+            <img
+              class="w-8 h-8 object-fill rounded-full"
+              src="https://www.photoshopessentials.com/newsite/wp-content/uploads/2018/08/resize-images-print-photoshop-f.jpg"
+            />
+            <div class="text-xs opacity-80">
+              <div class="w-fit">Chandan S.</div>
+              <div class="w-fit">Founder & CEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="h-full px-10 pt-10 bg-[#ebebeb] text-black">
+          <div class="flex gap-8">
+            <div
+              class="w-fit min-h-20 min-w-60 flex flex-col justify-between bg-white p-4 rounded-lg gap-5"
+            >
+              <div class="text-4xl text-[#87CEEB]">43</div>
+              <div class="text-sm">Total Time Tracked</div>
+            </div>
+            <div
+              class="w-fit min-h-20 min-w-40 flex flex-col justify-between bg-white p-4 rounded-lg gap-5"
+            >
+              <div>
+                <div class="text-4xl text-[#90EE90]">30</div>
+              </div>
+
+              <div class="text-sm">Productivity Time</div>
+            </div>
+            <div
+              class="w-fit min-h-20 min-w-40 flex flex-col justify-between bg-white p-4 rounded-lg gap-5"
+            >
+              <div class="text-4xl text-[#FF3632]">13</div>
+              <div class="text-sm">Unproductive Tracked</div>
+            </div>
+          </div>
+
+          <div class="w-full mt-10 bg-white h-fit p-4 rounded-lg">
+            <div class="grid grid-cols-4 gap-5  font-medium p-1">
+              <div class="col-span-1">Name</div>
+              <div class="col-span-1">Designation</div>
+              <div class="col-span-2">Tracked</div>
+            </div>
+            <div class="mt-2 gap-5"> 
+              <div class="grid grid-cols-4 gap-5 bg-[#f5f5f5] p-1">
+                <div class="col-span-1">Chandan</div>
+                <div class="col-span-1">CEO</div>
+                <div class="col-span-2">4 hr</div>
+              </div>
+              <div class="grid grid-cols-4 gap-5 bg-[] p-1">
+                <div class="col-span-1">Dhaval</div>
+                <div class="col-span-1">GM</div>
+                <div class="col-span-2">1 hr</div>
+              </div>
+              <div class="grid grid-cols-4 gap-5 bg-[#f5f5f5] p-1">
+                <div class="col-span-1">Shubham</div>
+                <div class="col-span-1">SDE-1</div>
+                <div class="col-span-2">2 hr</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
